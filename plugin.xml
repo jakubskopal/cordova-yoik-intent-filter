@@ -25,7 +25,7 @@
 
     <config-file target="AndroidManifest.xml" parent="/*/application/activity">
       <intent-filter>
-        <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME"  android:pathPrefix="/friends/"/>
+        <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME"  android:pathPrefix="/receive.html"/>
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
@@ -33,7 +33,7 @@
       <intent-filter>
         <action android:name="android.nfc.action.NDEF_DISCOVERED" />
         <category android:name="android.intent.category.DEFAULT" />
-        <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME"  android:pathPrefix="/friends/"/>
+        <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME"  android:pathPrefix="/receive.html"/>
       </intent-filter>
     </config-file>
   </platform>
