@@ -1,8 +1,8 @@
 cordova-yoik-intent-filter
 ==========================
 
-Simple plugin to add intent to manifest
+Simple plugin to add web intent filter to Android Manifest. It only works on Android
 
-    not working as wanted at a time
+    cordova plugin add https://github.com/jakubskopal/cordova-yoik-intent-filter.git --variable URL_SCHEME=http --variable HOST_NAME=www.example.com --variable PATH_PREFIX=/page1
 
-    cordova plugin add https://github.com/LassaLek/cordova-yoik-intent-filter.git --variable URL_SCHEME=http --variable HOST_NAME=mydomain.com --variable PATH_NAME=myPath
+
